@@ -1,0 +1,33 @@
+# 核心依赖
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Neo4j图数据库
+neo4j>=5.0.0
+
+# NLP处理
+spacy>=3.7.0
+
+# GraphRAG和向量检索
+llama-index>=0.9.0
+llama-index-graph-stores-neo4j>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+sentence-transformers>=2.2.0
+
+# API服务
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# 工具库
+tqdm>=4.66.0
+requests>=2.31.0
+
+# 可选：LangGraph Agent集成
+# langgraph>=0.0.20
+# langchain>=0.1.0
+
+# LLM 接入（DeepSeek + LangChain）
+langchain>=0.2.0
+langchain-openai>=0.1.0
+python-dotenv>=1.0.0
