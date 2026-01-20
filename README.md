@@ -203,6 +203,11 @@ retriever = HybridGraphRetriever(
     ...
 )
 ```
+### 实际运行示例
+
+运行 `python LLM.py` 后，系统会启动交互式对话界面。以下是一个实际运行示例：
+<img width="1480" height="1346" alt="image" src="https://github.com/user-attachments/assets/2d6c5bd5-03e6-4d21-897e-6e18e2917be4" />
+
 
 ## 性能优化
 
